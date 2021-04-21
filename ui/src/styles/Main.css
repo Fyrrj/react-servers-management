@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 1106px;
+  height: 956px;
+  margin-top: 42px;
+}
+
+.main__topPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__serversInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__title {
+  font-family: "Open Sans", sans-serif;
+  color: #494e61;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.main__serversNumber {
+  font-family: "Open Sans", sans-serif;
+  color: #494e61;
+  font-size: 15px;
+  font-weight: 400;
+}
